@@ -1,0 +1,88 @@
+{
+    "items":[
+        {
+            "Category":"Bebidas",
+            "items":[
+                {
+                    "name":"mojito",
+                    "descripcion":"mojito de sabores",
+                    "price":"$45.00",
+                    "imagen":"01mojito.jpg"
+                },
+                {
+                    "name":"Limonada",
+                    "descripcion":"Limonada bien fria",
+                    "price":"$20.00",
+                    "imagen":"02limonada.jpg"
+                },
+                {
+                    "name":"Diabla",
+                    "descripcion":"Dabla bien mal con mucho chilito ",
+                    "price":"$80.00",
+                    "imagen":""
+                },
+                {
+                    "name":"Chupilocas",
+                    "descripcion":"Chupilocas con muchas gomitas",
+                    "price":"$50.00",
+                    "imagen":""
+                },
+                {
+                    "name":"Capuchino",
+                    "descripcion":"Un capuchino pal antojo",
+                    "price":"$30.00",
+                    "imagen":""
+                }, 
+                {
+                    "name":"Vaso de agua",
+                    "descripcion":"Una aguita fresca",
+                    "price":"$10.00",
+                    "imagen":""
+                }
+
+                ]
+        },
+        {
+            "Category":"Desayunos",
+            "items":[
+                {
+                    "name":"Camomila",
+                    "descripcion":"La camomila un buen platillo para inicar el dia!",
+                    "price":"$95.00",
+                    "imagen":""
+                },
+                {
+                    "name":"Mexican bruch",
+                    "descripcion":"Un desayuno representativo pa llenarse un Mexican Brunch!",
+                    "price":"$120.00",
+                    "imagen":""
+                },
+                {
+                    "name":"Chilakiles",
+                    "descripcion":"Chilaquiles de salsa verde sabrosos!",
+                    "price":"$80.00",
+                    "imagen":""
+                },
+                {
+                    "name":"Sandwich",
+                    "descripcion":"Un rico Sandwich nutritivo para empezar!",
+                    "price":"$45.00",
+                    "imagen":""
+                },
+                {
+                    "name":"Pan y Cafe",
+                    "descripcion":"Un cafe bien caliente y una pieza de pan exquisitos!",
+                    "price":"$25.00",
+                    "imagen":""
+                },
+                {
+                    "name":"Enchiladas",
+                    "descripcion":"Unas enchiladas bien picositas!",
+                    "price":"$80.00",
+                    "imagen":""
+                }
+                ]
+        }
+        ]
+ }
+    

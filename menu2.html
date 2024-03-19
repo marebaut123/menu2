@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        
+
+        <title>Restaurante Cetis menu</title>
+</head>
+<body>
+    <div style="margin: 24px;">
+    </div>
+     <style>
+        #menu-container{
+            max-width: 300px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: aliceblue;
+            box-shadow: 0 4px 8px rgb(0,0,0, 0.1);
+            border-radius: 8px;
+        }
+        h2{
+            color: black;
+            font-size: 24px;
+            margin-top: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #2e552f;
+        }
+        table{
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            text-align: left;
+            margin: 0 auto;          
+        }
+        th, td{
+            padding: 8px;
+            border: 1px solid #ddd;
+        }
+        th{
+            background-color: rgb(116, 42, 150);
+        }
+        tr:nth-child(odd) td{
+            background-color: blue;
+        }
+        tr:nth-child(even) td{
+            background-color: blanchedalmond;
+        }
+        tr:nth-child(2n+1) td:nth-child(1){background-color: rgb(46, 4, 18);}
+        tr:nth-child(2n+1) td:nth-child(2){background-color: rgb(110, 51, 71);}
+        tr:nth-child(2n+1) td:nth-child(3){background-color: rgb(22, 11, 15);}
+        tr:nth-child(2n+1) td:nth-child(1){background-color: rgb(240, 104, 149);}
+        tr:nth-child(2n+1) td:nth-child(2){background-color: rgb(199, 182, 187);}
+        tr:nth-child(2n+1) td:nth-child(3){background-color: rgb(172, 0, 57);}
+        
+        img{
+            display: block;
+            max-width: 100px;
+            height: auto;
+            margin: 0 auto;
+        }
+        
+     </style>
+    <h1>Menu</h1>
+    <div id="container"></div>
+    <script src="manu.js"></script>
+    
+</body>
+</html>
